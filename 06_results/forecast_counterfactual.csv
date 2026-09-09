@@ -1,0 +1,85 @@
+basket,month,h,model,actual_lnY,cf_lnY,cf_lo95,cf_hi95,cf_lo80,cf_hi80,actual_usd,cf_usd,gap_log_pts,gap_pct,inside_95,selection,selection_note
+B1_MOBILE,2020-08,1,snaive,5.5002,5.9196,3.8337,8.0055,4.5557,7.2835,244.74,372.25,-41.94,-34.3,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2020-09,2,snaive,5.3991,5.625,3.5391,7.7108,4.2611,6.9888,221.2,277.26,-22.59,-20.2,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2020-10,3,snaive,5.6814,5.8822,3.7963,7.9681,4.5183,7.2461,293.37,358.59,-20.07,-18.2,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2020-11,4,snaive,6.0871,6.057,3.9711,8.1429,4.6931,7.4209,440.15,427.09,3.01,3.1,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2020-12,5,snaive,6.0367,5.6856,3.5997,7.7715,4.3217,7.0495,418.51,294.6,35.11,42.1,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2021-01,6,snaive,5.9931,5.838,3.7521,7.9239,4.4741,7.2019,400.65,343.08,15.51,16.8,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2021-02,7,snaive,5.7604,6.2363,4.1504,8.3222,4.8724,7.6002,317.48,510.95,-47.59,-37.9,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2021-03,8,snaive,6.1561,5.4801,3.3942,7.566,4.1162,6.844,471.57,239.87,67.6,96.6,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2021-04,9,snaive,5.1366,3.4154,1.3295,5.5013,2.0515,4.7793,170.13,30.43,172.11,459.1,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2021-05,10,snaive,5.4508,4.2628,2.1769,6.3487,2.8989,5.6267,232.94,71.01,118.8,228.0,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2021-06,11,snaive,5.4492,4.2736,2.1877,6.3595,2.9097,5.6375,232.57,71.78,117.56,224.0,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B1_MOBILE,2021-07,12,snaive,6.0476,4.9496,2.8637,7.0355,3.5857,6.3135,423.11,141.12,109.8,199.8,True,FINAL,"LOCKED: benchmark only, not model-selected"
+B2_PHARMA,2022-04,1,snaive,7.2832,7.2331,6.9994,7.4669,7.0803,7.386,1455.59,1384.55,5.0,5.1,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2022-05,2,snaive,7.2556,7.2193,6.9855,7.453,7.0664,7.3721,1416.02,1365.52,3.63,3.7,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2022-06,3,snaive,7.3049,7.3068,7.0731,7.5406,7.154,7.4597,1487.62,1490.45,-0.19,-0.2,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2022-07,4,snaive,7.3115,7.3546,7.1209,7.5884,7.2018,7.5075,1497.43,1563.39,-4.31,-4.2,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2022-08,5,snaive,7.3464,7.3073,7.0735,7.541,7.1544,7.4601,1550.58,1491.12,3.91,4.0,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2022-09,6,snaive,7.3582,7.2831,7.0494,7.5169,7.1303,7.436,1569.06,1455.56,7.51,7.8,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2022-10,7,snaive,7.1979,7.2806,7.0469,7.5144,7.1278,7.4335,1336.67,1451.89,-8.27,-7.9,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2022-11,8,snaive,7.2693,7.1382,6.9044,7.3719,6.9853,7.291,1435.52,1259.15,13.11,14.0,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2022-12,9,snaive,7.3851,7.3547,7.121,7.5885,7.2019,7.5076,1611.81,1563.56,3.04,3.1,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2023-01,10,snaive,7.2438,7.2655,7.0318,7.4993,7.1127,7.4184,1399.34,1430.13,-2.18,-2.2,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2023-02,11,snaive,7.2779,7.2378,7.0041,7.4716,7.085,7.3907,1448.01,1391.06,4.01,4.1,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B2_PHARMA,2023-03,12,snaive,7.4714,7.4151,7.1813,7.6488,7.2622,7.5679,1757.08,1660.83,5.63,5.8,True,FINAL,"selected: lowest RMSE outright, coverage 0.953"
+B3_AC,2022-04,1,snaive,3.0165,2.8046,1.3499,4.2592,1.8534,3.7557,20.42,16.52,21.19,23.6,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-05,2,snaive,3.176,2.6797,1.225,4.1343,1.7285,3.6308,23.95,14.58,49.63,64.3,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-06,3,snaive,3.2891,2.7912,1.3365,4.2458,1.84,3.7423,26.82,16.3,49.8,64.5,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-07,4,snaive,3.3673,2.9528,1.4982,4.4075,2.0017,3.904,29.0,19.16,41.45,51.4,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-08,5,snaive,3.0732,2.9107,1.4561,4.3654,1.9596,3.8619,21.61,18.37,16.24,17.6,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-09,6,snaive,3.0828,2.9771,1.5224,4.4317,2.0259,3.9282,21.82,19.63,10.58,11.2,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-10,7,snaive,2.8461,2.9355,1.4808,4.3901,1.9843,3.8866,17.22,18.83,-8.94,-8.6,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-11,8,snaive,3.1693,2.8616,1.407,4.3163,1.9105,3.8128,23.79,17.49,30.76,36.0,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-12,9,snaive,3.3656,3.018,1.5633,4.4726,2.0668,3.9691,28.95,20.45,34.76,41.6,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2023-01,10,snaive,2.8582,3.0248,1.5702,4.4795,2.0737,3.976,17.43,20.59,-16.66,-15.3,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2023-02,11,snaive,3.1489,3.2276,1.773,4.6823,2.2765,4.1788,23.31,25.22,-7.88,-7.6,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2023-03,12,snaive,3.5163,3.2798,1.8251,4.7344,2.3286,4.2309,33.66,26.57,23.65,26.7,True,FINAL,tie-break: sarima_airline RMSE win not distinguishable across origins (paired t=0.45) -> locked clause prefers simpler
+B3_AC,2022-04,1,sarima_airline,3.0165,2.2851,1.2598,3.3104,1.6147,2.9555,20.42,9.83,73.14,107.8,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2022-05,2,sarima_airline,3.176,2.8647,1.7305,3.9989,2.1231,3.6063,23.95,17.54,31.13,36.5,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2022-06,3,sarima_airline,3.2891,2.9402,1.7066,4.1737,2.1336,3.7467,26.82,18.92,34.9,41.8,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2022-07,4,sarima_airline,3.3673,3.0449,1.7194,4.3703,2.1782,3.9115,29.0,21.01,32.24,38.0,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2022-08,5,sarima_airline,3.0732,3.0475,1.6361,4.4589,2.1246,3.9704,21.61,21.06,2.56,2.6,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2022-09,6,sarima_airline,3.0828,3.0877,1.5953,4.5801,2.1118,4.0635,21.82,21.93,-0.48,-0.5,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2022-10,7,sarima_airline,2.8461,2.9145,1.3453,4.4837,1.8884,3.9406,17.22,18.44,-6.84,-6.6,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2022-11,8,sarima_airline,3.1693,2.8596,1.2171,4.5021,1.7857,3.9336,23.79,17.45,30.97,36.3,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2022-12,9,sarima_airline,3.3656,3.0074,1.2948,4.7199,1.8876,4.1271,28.95,20.23,35.82,43.1,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2023-01,10,sarima_airline,2.8582,3.0109,1.2309,4.7908,1.847,4.1747,17.43,20.3,-15.27,-14.2,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2023-02,11,sarima_airline,3.1489,3.1802,1.3354,5.025,1.9739,4.3865,23.31,24.05,-3.13,-3.1,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B3_AC,2023-03,12,sarima_airline,3.5163,3.2733,1.3658,5.1808,2.026,4.5205,33.66,26.4,24.3,27.5,True,raw_rmse_winner,sarima_airline - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-04,1,snaive,4.3379,4.447,3.4743,5.4197,3.811,5.083,76.55,85.37,-10.91,-10.3,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-05,2,snaive,4.4666,4.5184,3.5457,5.4911,3.8824,5.1544,87.06,91.69,-5.18,-5.0,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-06,3,snaive,4.2887,4.3881,3.4155,5.3608,3.7521,5.0241,72.87,80.49,-9.95,-9.5,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-07,4,snaive,4.4089,4.4598,3.4871,5.4325,3.8238,5.0958,82.18,86.47,-5.09,-5.0,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-08,5,snaive,4.4428,4.5803,3.6076,5.5529,3.9443,5.2163,85.01,97.54,-13.75,-12.8,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-09,6,snaive,4.4691,4.4623,3.4897,5.435,3.8263,5.0983,87.28,86.69,0.68,0.7,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-10,7,snaive,4.5708,4.5325,3.5598,5.5052,3.8965,5.1685,96.62,92.99,3.83,3.9,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-11,8,snaive,4.2042,4.2957,3.323,5.2683,3.6597,4.9316,66.97,73.38,-9.14,-8.7,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-12,9,snaive,4.5122,4.4398,3.4671,5.4125,3.8038,5.0758,91.12,84.76,7.24,7.5,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-01,10,snaive,4.6189,4.4957,3.523,5.4684,3.8597,5.1317,101.38,89.63,12.32,13.1,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-02,11,snaive,4.5855,4.6491,3.6764,5.6218,4.0131,5.2851,98.05,104.49,-6.36,-6.2,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-03,12,snaive,4.6363,4.5931,3.6204,5.5658,3.9571,5.2291,103.16,98.8,4.32,4.4,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-04,13,snaive,4.4578,4.447,3.0714,5.8226,3.5476,5.3464,86.3,85.37,1.08,1.1,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-05,14,snaive,4.5354,4.5184,3.1428,5.894,3.619,5.4179,93.26,91.69,1.7,1.7,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-06,15,snaive,4.2895,4.3881,3.0126,5.7637,3.4887,5.2876,72.93,80.49,-9.86,-9.4,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-07,16,snaive,4.4926,4.4598,3.0842,5.8354,3.5604,5.3592,89.35,86.47,3.28,3.3,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-08,17,snaive,4.4311,4.5803,3.2047,5.9558,3.6808,5.4797,84.02,97.54,-14.92,-13.9,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2025-09,18,snaive,4.557,4.4623,3.0868,5.8379,3.5629,5.3618,95.3,86.69,9.47,9.9,True,FINAL,tie-break: ets_damped RMSE win not distinguishable across origins (paired t=0.03) -> locked clause prefers simpler
+B4_TEXTILE,2024-04,1,ets_damped,4.3379,4.0131,3.5037,4.5225,3.68,4.3461,76.55,55.32,32.49,38.4,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-05,2,ets_damped,4.4666,4.1582,3.546,4.7705,3.7579,4.5586,87.06,63.96,30.84,36.1,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-06,3,ets_damped,4.2887,4.21,3.5098,4.9102,3.7522,4.6679,72.87,67.36,7.87,8.2,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-07,4,ets_damped,4.4089,4.3102,3.5319,5.0885,3.8013,4.8191,82.18,74.46,9.87,10.4,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-08,5,ets_damped,4.4428,4.401,3.5518,5.2502,3.8457,4.9563,85.01,81.53,4.18,4.3,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-09,6,ets_damped,4.4691,4.4428,3.5281,5.3575,3.8447,5.0409,87.28,85.01,2.63,2.7,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-10,7,ets_damped,4.5708,4.4324,3.4566,5.4081,3.7944,5.0704,96.62,84.13,13.84,14.8,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-11,8,ets_damped,4.2042,4.285,3.2518,5.3183,3.6095,4.9606,66.97,72.61,-8.08,-7.8,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2024-12,9,ets_damped,4.5122,4.4783,3.3907,5.566,3.7671,5.1895,91.12,88.09,3.39,3.4,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-01,10,ets_damped,4.6189,4.5347,3.3952,5.6742,3.7897,5.2798,101.38,93.2,8.41,8.8,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-02,11,ets_damped,4.5855,4.5667,3.3776,5.7558,3.7892,5.3442,98.05,96.22,1.88,1.9,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-03,12,ets_damped,4.6363,4.6154,3.3788,5.8521,3.8068,5.4241,103.16,101.03,2.08,2.1,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-04,13,ets_damped,4.4578,4.013,2.7305,5.2956,3.1744,4.8516,86.3,55.32,44.48,56.0,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-05,14,ets_damped,4.5354,4.1582,2.8315,5.485,3.2907,5.0258,93.26,63.96,37.72,45.8,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-06,15,ets_damped,4.2895,4.21,2.8404,5.5796,3.3145,5.1055,72.93,67.36,7.95,8.3,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-07,16,ets_damped,4.4926,4.3102,2.8991,5.7214,3.3875,5.2329,89.35,74.46,18.23,20.0,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-08,17,ets_damped,4.4311,4.401,2.9495,5.8524,3.4519,5.35,84.02,81.53,3.01,3.1,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break
+B4_TEXTILE,2025-09,18,ets_damped,4.557,4.4428,2.9521,5.9335,3.468,5.4175,95.3,85.01,11.43,12.1,True,raw_rmse_winner,ets_damped - retained for transparency; superseded by tie-break

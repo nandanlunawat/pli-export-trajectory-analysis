@@ -1,0 +1,253 @@
+block,basket_id,metric,value,note
+descriptives,B1_MOBILE,n,96,
+descriptives,B1_MOBILE,n_pre,28,
+descriptives,B1_MOBILE,n_post,68,
+descriptives,B1_MOBILE,level_min,26.65,
+descriptives,B1_MOBILE,level_max,3166.91,
+descriptives,B1_MOBILE,level_mean,985.2,
+descriptives,B1_MOBILE,ratio_max_min,118.8,
+descriptives,B1_MOBILE,growth_sd_full,40.25,log-growth points (lgp) - NOT percentage growth
+descriptives,B1_MOBILE,growth_sd_pre,59.52,log-growth points (lgp) - NOT percentage growth
+descriptives,B1_MOBILE,growth_sd_post,29.96,log-growth points (lgp) - NOT percentage growth
+descriptives,B1_MOBILE,growth_min,-206.47,log-growth points (lgp) - NOT percentage growth
+descriptives,B1_MOBILE,growth_max,101.78,log-growth points (lgp) - NOT percentage growth
+descriptives,B1_MOBILE,n_growth_pre,27,log-growth points (lgp) - NOT percentage growth
+descriptives,B1_MOBILE,n_growth_post,68,log-growth points (lgp) - NOT percentage growth
+descriptives,B2_PHARMA,n,96,
+descriptives,B2_PHARMA,n_pre,48,
+descriptives,B2_PHARMA,n_post,48,
+descriptives,B2_PHARMA,level_min,990.19,
+descriptives,B2_PHARMA,level_max,2735.13,
+descriptives,B2_PHARMA,level_mean,1524.26,
+descriptives,B2_PHARMA,ratio_max_min,2.8,
+descriptives,B2_PHARMA,growth_sd_full,11.43,log-growth points (lgp) - NOT percentage growth
+descriptives,B2_PHARMA,growth_sd_pre,10.37,log-growth points (lgp) - NOT percentage growth
+descriptives,B2_PHARMA,growth_sd_post,12.47,log-growth points (lgp) - NOT percentage growth
+descriptives,B2_PHARMA,growth_min,-39.07,log-growth points (lgp) - NOT percentage growth
+descriptives,B2_PHARMA,growth_max,40.25,log-growth points (lgp) - NOT percentage growth
+descriptives,B2_PHARMA,n_growth_pre,47,log-growth points (lgp) - NOT percentage growth
+descriptives,B2_PHARMA,n_growth_post,48,log-growth points (lgp) - NOT percentage growth
+descriptives,B3_AC,n,96,
+descriptives,B3_AC,n_pre,48,
+descriptives,B3_AC,n_post,48,
+descriptives,B3_AC,level_min,0.86,
+descriptives,B3_AC,level_max,53.79,
+descriptives,B3_AC,level_mean,24.48,
+descriptives,B3_AC,ratio_max_min,62.5,
+descriptives,B3_AC,growth_sd_full,41.22,log-growth points (lgp) - NOT percentage growth
+descriptives,B3_AC,growth_sd_pre,54.77,log-growth points (lgp) - NOT percentage growth
+descriptives,B3_AC,growth_sd_post,21.5,log-growth points (lgp) - NOT percentage growth
+descriptives,B3_AC,growth_min,-275.79,log-growth points (lgp) - NOT percentage growth
+descriptives,B3_AC,growth_max,222.15,log-growth points (lgp) - NOT percentage growth
+descriptives,B3_AC,n_growth_pre,47,log-growth points (lgp) - NOT percentage growth
+descriptives,B3_AC,n_growth_post,48,log-growth points (lgp) - NOT percentage growth
+descriptives,B4_TEXTILE,n,96,
+descriptives,B4_TEXTILE,n_pre,72,
+descriptives,B4_TEXTILE,n_post,24,
+descriptives,B4_TEXTILE,level_min,9.23,
+descriptives,B4_TEXTILE,level_max,119.97,
+descriptives,B4_TEXTILE,level_mean,82.76,
+descriptives,B4_TEXTILE,ratio_max_min,13.0,
+descriptives,B4_TEXTILE,growth_sd_full,29.75,log-growth points (lgp) - NOT percentage growth
+descriptives,B4_TEXTILE,growth_sd_pre,33.05,log-growth points (lgp) - NOT percentage growth
+descriptives,B4_TEXTILE,growth_sd_post,17.13,log-growth points (lgp) - NOT percentage growth
+descriptives,B4_TEXTILE,growth_min,-220.66,log-growth points (lgp) - NOT percentage growth
+descriptives,B4_TEXTILE,growth_max,105.24,log-growth points (lgp) - NOT percentage growth
+descriptives,B4_TEXTILE,n_growth_pre,71,log-growth points (lgp) - NOT percentage growth
+descriptives,B4_TEXTILE,n_growth_post,24,log-growth points (lgp) - NOT percentage growth
+log_transform,B1_MOBILE,cv_of_levels,0.887,
+log_transform,B1_MOBILE,corr_annual_sd_vs_mean_LEVEL,0.589,
+log_transform,B1_MOBILE,corr_abs_growth_vs_lnY,-0.416,
+log_transform,B2_PHARMA,cv_of_levels,0.184,
+log_transform,B2_PHARMA,corr_annual_sd_vs_mean_LEVEL,0.468,
+log_transform,B2_PHARMA,corr_abs_growth_vs_lnY,0.173,
+log_transform,B3_AC,cv_of_levels,0.471,
+log_transform,B3_AC,corr_annual_sd_vs_mean_LEVEL,0.826,
+log_transform,B3_AC,corr_abs_growth_vs_lnY,-0.568,
+log_transform,B4_TEXTILE,cv_of_levels,0.206,
+log_transform,B4_TEXTILE,corr_annual_sd_vs_mean_LEVEL,-0.47,
+log_transform,B4_TEXTILE,corr_abs_growth_vs_lnY,-0.826,
+stl,B1_MOBILE,seasonal_strength,0.549,
+stl,B1_MOBILE,trend_strength,0.925,
+stl,B1_MOBILE,resid_sd_lgp,29.35,resid_sd_lgp in log-growth points
+stl,B2_PHARMA,seasonal_strength,0.323,
+stl,B2_PHARMA,trend_strength,0.86,
+stl,B2_PHARMA,resid_sd_lgp,6.64,resid_sd_lgp in log-growth points
+stl,B3_AC,seasonal_strength,0.015,
+stl,B3_AC,trend_strength,0.634,
+stl,B3_AC,resid_sd_lgp,33.43,resid_sd_lgp in log-growth points
+stl,B4_TEXTILE,seasonal_strength,0.144,
+stl,B4_TEXTILE,trend_strength,0.249,
+stl,B4_TEXTILE,resid_sd_lgp,24.96,resid_sd_lgp in log-growth points
+seasonal_profile,B1_MOBILE,m01,-0.67,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m02,5.95,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m03,13.56,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m04,-64.68,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m05,-25.36,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m06,-20.5,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m07,-4.02,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m08,-7.2,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m09,-12.48,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m10,26.27,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m11,48.09,log points x100 vs own-year mean
+seasonal_profile,B1_MOBILE,m12,41.04,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m01,-6.52,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m02,-4.63,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m03,9.13,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m04,-4.79,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m05,-4.11,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m06,2.06,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m07,-0.23,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m08,1.42,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m09,5.65,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m10,-0.65,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m11,-4.75,log points x100 vs own-year mean
+seasonal_profile,B2_PHARMA,m12,7.43,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m01,-12.96,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m02,3.05,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m03,15.33,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m04,-38.41,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m05,-2.53,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m06,3.1,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m07,6.45,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m08,5.29,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m09,9.22,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m10,-2.79,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m11,0.18,log points x100 vs own-year mean
+seasonal_profile,B3_AC,m12,14.07,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m01,13.65,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m02,14.72,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m03,15.73,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m04,-25.83,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m05,-13.26,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m06,-15.36,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m07,-4.31,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m08,1.78,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m09,6.55,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m10,6.16,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m11,-10.39,log points x100 vs own-year mean
+seasonal_profile,B4_TEXTILE,m12,10.56,log points x100 vs own-year mean
+autocorrelation,B1_MOBILE,acf1_lnY,0.89,
+autocorrelation,B1_MOBILE,acf12_lnY,0.577,
+autocorrelation,B1_MOBILE,acf1_growth,-0.152,
+autocorrelation,B1_MOBILE,acf12_growth,0.512,
+autocorrelation,B1_MOBILE,signif_band_95,0.201,
+autocorrelation,B1_MOBILE,n_growth,95,
+autocorrelation,B2_PHARMA,acf1_lnY,0.773,
+autocorrelation,B2_PHARMA,acf12_lnY,0.535,
+autocorrelation,B2_PHARMA,acf1_growth,-0.43,
+autocorrelation,B2_PHARMA,acf12_growth,0.3,
+autocorrelation,B2_PHARMA,signif_band_95,0.201,
+autocorrelation,B2_PHARMA,n_growth,95,
+autocorrelation,B3_AC,acf1_lnY,0.717,
+autocorrelation,B3_AC,acf12_lnY,0.434,
+autocorrelation,B3_AC,acf1_growth,-0.351,
+autocorrelation,B3_AC,acf12_growth,0.139,
+autocorrelation,B3_AC,signif_band_95,0.201,
+autocorrelation,B3_AC,n_growth,95,
+autocorrelation,B4_TEXTILE,acf1_lnY,0.534,
+autocorrelation,B4_TEXTILE,acf12_lnY,0.138,
+autocorrelation,B4_TEXTILE,acf1_growth,-0.218,
+autocorrelation,B4_TEXTILE,acf12_growth,0.161,
+autocorrelation,B4_TEXTILE,signif_band_95,0.201,
+autocorrelation,B4_TEXTILE,n_growth,95,
+stationarity,B1_MOBILE,adf_lnY_ct_stat,-2.589,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,adf_lnY_ct_p,0.2848,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,adf_lnY_lags,12,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,adf_growth_c_stat,-3.278,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,adf_growth_c_p,0.0159,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,adf_growth_lags,11,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,kpss_lnY_ct_stat,0.0586,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,kpss_lnY_ct_p,0.1,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,kpss_growth_c_stat,0.1311,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,kpss_growth_c_p,0.1,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,za_lnY_stat,-4.252,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,za_lnY_p,0.3421,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,za_lnY_crit5,-5.073,evidence consistent with; no single test establishes integration order
+stationarity,B1_MOBILE,za_break,2020-02,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,adf_lnY_ct_stat,-3.957,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,adf_lnY_ct_p,0.0101,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,adf_lnY_lags,2,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,adf_growth_c_stat,-7.911,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,adf_growth_c_p,0.0,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,adf_growth_lags,4,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,kpss_lnY_ct_stat,0.1423,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,kpss_lnY_ct_p,0.0569,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,kpss_growth_c_stat,0.1447,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,kpss_growth_c_p,0.1,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,za_lnY_stat,-4.9,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,za_lnY_p,0.0822,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,za_lnY_crit5,-5.073,evidence consistent with; no single test establishes integration order
+stationarity,B2_PHARMA,za_break,2021-03,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,adf_lnY_ct_stat,-7.138,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,adf_lnY_ct_p,0.0,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,adf_lnY_lags,0,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,adf_growth_c_stat,-7.188,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,adf_growth_c_p,0.0,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,adf_growth_lags,4,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,kpss_lnY_ct_stat,0.1305,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,kpss_lnY_ct_p,0.0787,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,kpss_growth_c_stat,0.5,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,kpss_growth_c_p,0.0417,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,za_lnY_stat,-8.461,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,za_lnY_p,0.0009,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,za_lnY_crit5,-5.073,evidence consistent with; no single test establishes integration order
+stationarity,B3_AC,za_break,2020-05,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,adf_lnY_ct_stat,-5.575,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,adf_lnY_ct_p,0.0,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,adf_lnY_lags,0,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,adf_growth_c_stat,-7.678,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,adf_growth_c_p,0.0,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,adf_growth_lags,3,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,kpss_lnY_ct_stat,0.0862,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,kpss_lnY_ct_p,0.1,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,kpss_growth_c_stat,0.055,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,kpss_growth_c_p,0.1,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,za_lnY_stat,-6.775,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,za_lnY_p,0.001,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,za_lnY_crit5,-5.073,evidence consistent with; no single test establishes integration order
+stationarity,B4_TEXTILE,za_break,2020-02,evidence consistent with; no single test establishes integration order
+robust_exCOVID,B1_MOBILE,kpss_growth_p_exCOVID,0.052,Mar-Sep 2020 removed
+robust_exCOVID,B1_MOBILE,adf_growth_p_exCOVID,0.0001,Mar-Sep 2020 removed
+ljung_box,B1_MOBILE,LB6_p_growth,0.5371,
+ljung_box,B1_MOBILE,LB12_p_growth,0.0001,
+ljung_box,B1_MOBILE,LB24_p_growth,0.0001,
+level_dependence,B1_MOBILE,sd_growth_low_level_third_lgp,58.792,log-growth points (lgp) - NOT percentage growth
+level_dependence,B1_MOBILE,sd_growth_high_level_third_lgp,25.4117,log-growth points (lgp) - NOT percentage growth
+level_dependence,B1_MOBILE,ratio_low_over_high,2.3136,
+level_dependence,B1_MOBILE,ratio_low_over_high_exCOVID,1.5228,Mar-Sep 2020 removed
+lgp_to_simple_pct,B1_MOBILE,simple_pct_min_growth,-87.314,from -206.47 lgp; simple % change
+lgp_to_simple_pct,B1_MOBILE,simple_pct_max_growth,176.7157,from 101.78 lgp; simple % change
+robust_exCOVID,B2_PHARMA,kpss_growth_p_exCOVID,0.1,Mar-Sep 2020 removed
+robust_exCOVID,B2_PHARMA,adf_growth_p_exCOVID,0.0,Mar-Sep 2020 removed
+ljung_box,B2_PHARMA,LB6_p_growth,0.0,
+ljung_box,B2_PHARMA,LB12_p_growth,0.0,
+ljung_box,B2_PHARMA,LB24_p_growth,0.0,
+level_dependence,B2_PHARMA,sd_growth_low_level_third_lgp,9.9418,log-growth points (lgp) - NOT percentage growth
+level_dependence,B2_PHARMA,sd_growth_high_level_third_lgp,13.2672,log-growth points (lgp) - NOT percentage growth
+level_dependence,B2_PHARMA,ratio_low_over_high,0.7493,
+level_dependence,B2_PHARMA,ratio_low_over_high_exCOVID,0.7586,Mar-Sep 2020 removed
+lgp_to_simple_pct,B2_PHARMA,simple_pct_min_growth,-32.3422,from -39.07 lgp; simple % change
+lgp_to_simple_pct,B2_PHARMA,simple_pct_max_growth,49.5522,from 40.25 lgp; simple % change
+robust_exCOVID,B3_AC,kpss_growth_p_exCOVID,0.1,Mar-Sep 2020 removed
+robust_exCOVID,B3_AC,adf_growth_p_exCOVID,0.0,Mar-Sep 2020 removed
+ljung_box,B3_AC,LB6_p_growth,0.0153,
+ljung_box,B3_AC,LB12_p_growth,0.0356,
+ljung_box,B3_AC,LB24_p_growth,0.2338,
+level_dependence,B3_AC,sd_growth_low_level_third_lgp,65.7586,log-growth points (lgp) - NOT percentage growth
+level_dependence,B3_AC,sd_growth_high_level_third_lgp,16.8527,log-growth points (lgp) - NOT percentage growth
+level_dependence,B3_AC,ratio_low_over_high,3.902,
+level_dependence,B3_AC,ratio_low_over_high_exCOVID,0.9082,Mar-Sep 2020 removed
+lgp_to_simple_pct,B3_AC,simple_pct_min_growth,-93.6578,from -275.79 lgp; simple % change
+lgp_to_simple_pct,B3_AC,simple_pct_max_growth,822.093,from 222.15 lgp; simple % change
+robust_exCOVID,B4_TEXTILE,kpss_growth_p_exCOVID,0.1,Mar-Sep 2020 removed
+robust_exCOVID,B4_TEXTILE,adf_growth_p_exCOVID,0.1259,Mar-Sep 2020 removed
+ljung_box,B4_TEXTILE,LB6_p_growth,0.1338,
+ljung_box,B4_TEXTILE,LB12_p_growth,0.1637,
+ljung_box,B4_TEXTILE,LB24_p_growth,0.3138,
+level_dependence,B4_TEXTILE,sd_growth_low_level_third_lgp,46.8698,log-growth points (lgp) - NOT percentage growth
+level_dependence,B4_TEXTILE,sd_growth_high_level_third_lgp,10.3294,log-growth points (lgp) - NOT percentage growth
+level_dependence,B4_TEXTILE,ratio_low_over_high,4.5375,
+level_dependence,B4_TEXTILE,ratio_low_over_high_exCOVID,1.3635,Mar-Sep 2020 removed
+lgp_to_simple_pct,B4_TEXTILE,simple_pct_min_growth,-88.9922,from -220.66 lgp; simple % change
+lgp_to_simple_pct,B4_TEXTILE,simple_pct_max_growth,186.4572,from 105.24 lgp; simple % change

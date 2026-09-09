@@ -1,0 +1,37 @@
+{
+  "retrieval_date": "2026-08-29",
+  "source": "https://tradestat.commerce.gov.in/meidb/commoditywise_export",
+  "source_agency": "DGCI&S / Department of Commerce, Government of India",
+  "coverage_banner_verbatim": "Data available:Jan 2018 to Jun 2026 ((R) Revised Final upto Mar 2026, (F) Final upto Jun 2026)",
+  "portal_last_updated_verbatim": "Data last updated on: 13/08/2026",
+  "query_settings": {
+    "trade_type": "EXPORTS",
+    "report": "Commodity-wise",
+    "commodity_level": "All Commodities - 6 digit Level",
+    "values_in": "US $ Million",
+    "year_type": "Calendar Year"
+  },
+  "requests_made": 48,
+  "request_design": "A query for (month M, year Y) returns two data columns, M-(Y-1) and M-Y. 12 months x 4 years = 48 requests cover the 96-month panel.",
+  "panel": "2018-04..2026-03",
+  "n_months": 96,
+  "n_baskets": 7,
+  "n_rows": 672,
+  "hs_rows_parsed_per_month": "5121-5491 depending on vintage",
+  "vintage_flags_observed": ["R"],
+  "parser_completeness_spotcheck": {
+    "method": "sum of all parsed HS-6 rows vs MEIDB's own India's Total Export line",
+    "2021-03": {"parsed_sum": 35256.30, "reported_total": 35256.60, "diff_pct": -0.001},
+    "2022-03": {"parsed_sum": 44573.68, "reported_total": 44573.71, "diff_pct": 0.000},
+    "2024-08": {"parsed_sum": 32889.48, "reported_total": 32890.09, "diff_pct": -0.002},
+    "2025-08": {"parsed_sum": 34736.48, "reported_total": 34736.67, "diff_pct": -0.001}
+  },
+  "revision_policy": "DGCI&S Dynamic Data Revision Policy restates prior months of the current financial year on every release. Re-pull in full; never append.",
+  "raw_preservation_note": "In-session extraction preserved the parsed HS-6 rows for every basket code plus reconciliation aggregates and B1 code-level detail, all retrieval-date stamped. Full raw HTML archiving (one gzipped response per request) is performed by 05_analysis/fetch_meidb.py when run locally.",
+  "files": [
+    "panel_compact.csv",
+    "b1_code_detail.csv",
+    "reconciliation_aggregates.csv",
+    "extraction_manifest.json"
+  ]
+}

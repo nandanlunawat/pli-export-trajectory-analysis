@@ -1,0 +1,115 @@
+# MEIDB CONTINUITY PROBE - RAW OBSERVATIONS
+# Purpose        : verification protocol V1-V4 from 08_report/research_design_memo.md section 1.5
+# Source         : https://tradestat.commerce.gov.in/meidb/commoditywise_export
+# Query settings : Trade Type=EXPORTS; Report=Commodity-wise; All Commodities=6 digit Level;
+#                  Values in=US $ Million; Year Type=Calendar Year
+# Retrieval date : 2026-08-29
+# Coverage banner (verbatim at retrieval): "Data available:Jan 2018 to Jun 2026 ((R) Revised Final upto Mar 2026, (F) Final upto Jun 2026)"
+# Portal last updated (verbatim)         : "Data last updated on: 13/08/2026"
+# Vintage flags  : every observation below carried the (R) Revised Final flag
+# NOTE           : an asterisk prefix on a commodity description means the code is dropped from the
+#                  current HS Code Directory (MEIDB help note (e)). Recorded in the starred column.
+# NOTE           : "absent" means the code returned no row at all for that month.
+# This is a RAW extract. Do not overwrite. New pulls must be saved as a new dated file.
+month,hs6,value_usd_mn,starred,note
+2021-12,851711,0.32,no,
+2021-12,851712,775.78,no,pre-transition normal level
+2021-12,851713,,,absent
+2021-12,851714,,,absent
+2021-12,851718,1.39,no,pre-transition normal level
+2021-12,851761,0.36,no,
+2021-12,851762,73.57,no,
+2021-12,851769,3.40,no,
+2021-12,851770,26.26,no,
+2022-01,851711,33.06,no,ANOMALOUS JUMP from 0.32
+2022-01,851712,230.90,no,COLLAPSE from 775.78
+2022-01,851713,,,absent
+2022-01,851714,,,absent
+2022-01,851718,272.16,no,ANOMALOUS JUMP from 1.39
+2022-01,851761,0.05,no,
+2022-01,851762,65.41,no,
+2022-01,851769,3.26,no,
+2022-01,851770,27.20,no,
+2022-03,851711,3.08,no,
+2022-03,851712,503.82,no,
+2022-03,851713,,,absent
+2022-03,851714,,,absent
+2022-03,851718,306.77,no,still elevated
+2022-03,851761,0.52,no,
+2022-03,851762,74.42,no,
+2022-03,851769,4.32,no,
+2022-03,851770,31.33,YES,description displayed as *PARTS:
+2022-04,851711,4.87,no,
+2022-04,851712,153.52,no,STILL NON-ZERO alongside the new codes
+2022-04,851713,498.26,no,FIRST APPEARANCE - Smartphones
+2022-04,851714,2.06,no,FIRST APPEARANCE - Other telephones for cellular networks
+2022-04,851718,33.13,no,falling back toward normal
+2022-04,851761,0.83,no,
+2022-04,851762,80.95,no,
+2022-04,851769,4.18,no,
+2022-04,851770,0.00,YES,goes to exactly zero at the directory switch
+2022-04,851771,6.45,no,FIRST APPEARANCE - Aerials and aerial reflectors
+2022-04,851779,23.33,no,FIRST APPEARANCE - Other parts
+2022-04,852491,0.63,no,FIRST APPEARANCE - heading 8524
+2022-04,852492,0.30,no,FIRST APPEARANCE
+2022-04,852499,0.02,no,FIRST APPEARANCE
+2024-03,851711,0.23,no,
+2024-03,851712,0.00,no,fully retired
+2024-03,851713,1988.42,no,
+2024-03,851714,1.23,no,
+2024-03,851718,0.45,no,back to normal level
+2024-03,851761,0.04,no,
+2024-03,851762,80.55,no,
+2024-03,851769,2.84,no,
+2024-03,851771,8.99,no,
+2024-03,851779,35.54,no,
+2024-03,852411,0.77,no,
+2024-03,852419,0.00,no,
+2024-03,852491,2.21,no,
+2024-03,852492,3.80,no,
+2024-03,852499,0.24,no,
+2024-04,851711,0.02,no,
+2024-04,851712,0.00,no,
+2024-04,851713,1511.38,no,
+2024-04,851714,1.80,no,
+2024-04,851718,0.41,no,
+2024-04,851761,0.02,no,
+2024-04,851762,52.70,no,no HS-6 change at the April 2024 directory
+2024-04,851769,4.34,no,no HS-6 change at the April 2024 directory
+2024-04,851771,8.03,no,
+2024-04,851779,19.15,no,
+2024-04,852411,0.26,no,
+2024-04,852419,0.01,no,
+2024-04,852491,1.50,no,
+2024-04,852492,2.12,no,
+2024-04,852499,0.06,no,
+# --- V4: air conditioners, heading 8415 - all six HS-6 codes present at every boundary tested ---
+2022-03,841510,11.45,no,
+2022-03,841520,1.57,no,
+2022-03,841581,0.06,no,
+2022-03,841582,1.87,no,
+2022-03,841583,1.54,no,
+2022-03,841590,10.08,no,
+2022-04,841510,5.45,no,
+2022-04,841520,0.48,no,
+2022-04,841581,0.23,no,
+2022-04,841582,1.57,no,
+2022-04,841583,2.73,no,
+2022-04,841590,9.96,no,
+2024-03,841510,15.20,no,
+2024-03,841520,1.47,no,
+2024-03,841581,0.88,no,
+2024-03,841582,3.64,no,
+2024-03,841583,2.78,no,
+2024-03,841590,17.00,no,
+2024-04,841510,6.69,no,
+2024-04,841520,1.77,no,
+2024-04,841581,0.02,no,
+2024-04,841582,2.49,no,
+2024-04,841583,0.85,no,
+2024-04,841590,11.74,no,
+# --- V4: pharmaceutical formulations 3003 + 3004 - row counts, no code changes observed ---
+2022-03,3003+3004,,,"22 HS-6 rows present (300310/320/331/339/341/342/343/349/360/390 and 300410/420/431/432/439/441/442/443/449/450/460/490)"
+2022-04,3003+3004,,,22 HS-6 rows present - identical code set
+2024-03,3003+3004,,,"20 HS-6 rows present (300342 and 300443 returned no row in this month - zero-trade months, not code deletions; both appear in other months)"
+2024-04,3003+3004,,,20 HS-6 rows present

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Temporary analysis outputs
+_tmp_*.csv
+06_results_reproduction/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Raw-download caches
+*.gz
+
+# Local-only: legacy archive and process-history documents
+99_legacy/
+docs/archive/
+docs/PROJECT_STATUS.md
+docs/00_PHASE1_AUDIT_AND_DESIGN.md
+docs/CLEANUP_AUDIT_PROPOSAL.md
+docs/REPO_AUDIT_FULL.md
